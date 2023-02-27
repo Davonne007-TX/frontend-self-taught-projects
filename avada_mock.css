@@ -1,0 +1,107 @@
+
+/*header*/
+.signUp {
+    background-color: black;
+    margin: -1px 0 20px;
+    padding: 10px 0 0 0;
+    width: 100%;
+    height: 130px;
+
+}
+
+.firstOrder {
+    color: white;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+}
+
+.terms {
+    color: white;
+    margin: 10px;
+}
+
+.terms:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+.enterEmail {
+    font-family: 'Lobster', cursive;
+    width: 250px;
+    margin-left: 30px;
+    height: 24px;
+    font-size: 14px;
+}
+
+.submit {
+    font-family: 'Lobster', cursive;
+    background-color: pink;
+    width: 80px;
+    font-size: 16px;
+}
+
+.submit:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.vegan {
+    color: pink;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/*main body*/
+.contact {
+    margin-left: 20px;
+}
+
+.buttons {
+    font-family: 'Lobster', cursive;
+    font-size: 12pt;
+    width: 120px;
+    border-radius: 20px;
+    background-color: pink;
+}
+
+.buttons:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2.5em;
+}
+
+ul {
+    text-align: center;
+}
+
+li, a {
+    list-style-type: none;
+    display: inline;
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+    padding: 3px;
+}
+
+li:hover {
+    color: pink;
+    cursor: pointer;
+}
+
+/*images*/
+.salon {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    max-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 9px solid pink;
+    border-radius: 5px;
+}
