@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="digital clock, javascript project, learning javascript">
+    <title>Digital Clock</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Courgette&family=Crimson+Text&family
+    =DM+Serif+Display&family=Lexend+Deca:wght@300&family=Lobster+Two&family=Monoton&family=Orbitron:wght@700&family=PT+Serif&family=Pacifico&family=Permanent+Marker&family=Playball&family=Praise&family=Racing+Sans+One&family=Raleway:wght@500&family=Righteous&family=Satisfy&display=swap" rel="stylesheet">  
+    <link href = "digital_clock.css" rel="stylesheet">
+</head>
+
+  
+
+<body>
+  <div id="myClockDisplay"></div>
+ 
+
+  <script>
+   function showTime() {
+    var date = new Date();
+    var h = date.getHours();
+    var m = date.getMinutes();
+    var s = date.getSeconds();
+    var session = "AM";
+   
+    if (h == 0) {
+        h = 12;
+    }
+    
+    if (h > 12) {
+        h = h - 12;
+          session = "PM";
+    }
+ 
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
+    s = (s < 10) ? "0" + s : s;
+
+    var time = h + ":" + m + ":" + s + " " + session;
+    document.getElementById("myClockDisplay").innerText = time;
+    document.getElementById("myClockDisplay").textContent = time;
+    setTimeout(showTime, 1000);
+   }
+
+   showTime();
+</script>
+
+
+
+
+
+</body>
+</html>
