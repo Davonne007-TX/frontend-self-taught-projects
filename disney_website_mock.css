@@ -221,7 +221,7 @@ img {
   }
 
   .getTickets:hover {
-    color: #5783F5;
+    color: #33C4FF;
     cursor: pointer;
   }
 
@@ -230,8 +230,12 @@ img {
   }
 
   .plan:hover {
-    color: #5783F5;
+    color: #E72AF5;
     cursor: pointer;
+  }
+
+  .themPark:hover {
+    color: #18C725;
   }
 
   .learnMore,a {
@@ -239,7 +243,7 @@ img {
   }
 
   .learnMore:hover {
-    color: #5783F5;
+    color: #3C41FA;
     cursor: pointer;
   }
 
