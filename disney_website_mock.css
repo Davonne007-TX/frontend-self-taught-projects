@@ -1,381 +1,367 @@
 /*html*/
 html {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
 /*body*/
-  /*header*/ 
-  .disney {
-    width: 100%;
-    height: auto;
-    display: inline;
-  }
+/*header*/
+.disney {
+  width: 100%;
+  height: auto;
+  display: inline;
+}
 
-  h1 {
-    margin-left: 180px;
-    font-family: 'Great Vibes', cursive;
-    display: inline;
-    font-size: 3em;
-  }
+h1 {
+  margin-left: 180px;
+  font-family: "Great Vibes", cursive;
+  display: inline;
+  font-size: 3em;
+}
 
-  ul {
-    display: inline;
-  }
+ul {
+  display: inline;
+}
 
-  a, li {
-    display: inline;
-    padding: 10px;
-    color: black;
-    text-decoration: none;
-    font-family: 'DM Serif Text', serif;
-    font-size: 12pt;
-  }
+a,
+li {
+  display: inline;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  font-family: "DM Serif Text", serif;
+  font-size: 12pt;
+}
 
-  li:hover {
-    cursor: pointer;
-    color:  #5783F5;
-  }
+li:hover {
+  cursor: pointer;
+  color: #5783f5;
+}
 
-  .signIn {
-    display: inline;
-    margin-left: 320px;
-    font-family: 'DM Serif Text', serif;
-  }
+.signIn {
+  display: inline;
+  margin-left: 320px;
+  font-family: "DM Serif Text", serif;
+}
 
-  .signIn:hover {
-    cursor: pointer;
-    color: #5783F5;
-  }
+.signIn:hover {
+  cursor: pointer;
+  color: #5783f5;
+}
 
-  .search {
-    width: 100%;
-    max-width: 300px;
-    margin: 10px;
-    font-family: 'DM Serif Text', serif;
-    padding: 5px;
-    border: 1px solid #DEDDDC;
-    border-radius: 10px;
-  }
-  
-  .magnify {
-    cursor: pointer;
-  }
+.search {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+  font-family: "DM Serif Text", serif;
+  padding: 5px;
+  border: 1px solid #dedddc;
+  border-radius: 10px;
+}
 
-  .magnify:hover {
-    background-color: #DCD3CD;
-    border: 2px solid #DEDDDC;
-  }
+.magnify {
+  cursor: pointer;
+}
 
+.magnify:hover {
+  background-color: #dcd3cd;
+  border: 2px solid #dedddc;
+}
 
-  /*first container*/
-  .container1 {
-    position: relative;
-   
-  }
+/*first container*/
+.container1 {
+  position: relative;
+}
 
 img {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 100%;
-    max-width: 1650px;
-    margin-top: 60px;
-  }
-  
-  .wallE2Para {
-    position: relative;
-    width: 100%;
-    bottom: 480px;
-    left: 980px;
-    color: white;
-    font-family: 'Calistoga', cursive;
-    font-size: 24pt;
-  }
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+  max-width: 1650px;
+  margin-top: 60px;
+}
 
-  p {
-    font-size: 18pt;
-    width: 500px;
-    text-align: center;
-  }
+.wallE2Para {
+  position: relative;
+  width: 100%;
+  bottom: 480px;
+  left: 980px;
+  color: white;
+  font-family: "Calistoga", cursive;
+  font-size: 24pt;
+}
 
-  .stream {
-    width: 250px;
-    padding: 15px;
-    border-radius: 24px;
-    background-color: white;
-    font-family: 'Calistoga', cursive;
-    margin-left: 120px;
-    font-size: 12pt;
-  }
+p {
+  font-size: 18pt;
+  width: 500px;
+  text-align: center;
+}
 
-  .stream:hover {
-    background-color: #DCD3CD;
-    cursor: pointer;
-  }
+.stream {
+  width: 250px;
+  padding: 15px;
+  border-radius: 24px;
+  background-color: white;
+  font-family: "Calistoga", cursive;
+  margin-left: 120px;
+  font-size: 12pt;
+}
 
-  .trailer {
-    width: 250px;
-    padding: 15px;
-    border-radius: 24px;
-    background-color: black;
-    border: 1px solid black;
-    font-family: 'Calistoga', cursive;
-    margin-left: 90pt;
-    color: white;
-    font-size: 12pt;
-    margin-top: 20px;
+.stream:hover {
+  background-color: #dcd3cd;
+  cursor: pointer;
+}
 
-  }
+.trailer {
+  width: 250px;
+  padding: 15px;
+  border-radius: 24px;
+  background-color: black;
+  border: 1px solid black;
+  font-family: "Calistoga", cursive;
+  margin-left: 90pt;
+  color: white;
+  font-size: 12pt;
+  margin-top: 20px;
+}
 
-  .trailer:hover {
-    background-color: grey;
-    cursor: pointer;
-  }
+.trailer:hover {
+  background-color: grey;
+  cursor: pointer;
+}
 
-  /*second container*/
+/*second container*/
 
-  .hopfullyBc {
-    width: 100%;
-    height: auto;
-    max-width: 1650px;
-    background-color: #E0F0FF;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.hopfullyBc {
+  width: 100%;
+  height: auto;
+  max-width: 1650px;
+  background-color: #e0f0ff;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .main {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -280px;
-  }
+.main {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -280px;
+}
 
-  .row {
-    margin: 2px -12px;
-  }
+.row {
+  margin: 2px -12px;
+}
 
-  .row,
-  .row > .column {
-    padding: 8px;
-  }
-
+.row,
+.row > .column {
+  padding: 8px;
+}
 
 .column {
-    float: left;
-    width: 25%;
-    text-align: center;
-  }
+  float: left;
+  width: 25%;
+  text-align: center;
+}
 
-  .row:after {
-    content: "";
-    display:table;
-    clear:both;
-  }
-
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 @media screen and (max-width: 900px) {
-    .column {
-        width: 50%;
-    }
+  .column {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
+  .column {
+    width: 100%;
+  }
 }
-
 
 /*images of second section along with the text*/
 
+h2:a {
+  text-decoration: underline;
+}
 
-  h2:a {
-    text-decoration: underline;
-   
-  }
+h2:hover {
+  color: #5783f5;
+  cursor: pointer;
+}
 
-  h2:hover {
-    color: #5783F5;
-    cursor: pointer;
-   
-  }
+p1,
+p2,
+p3,
+p4 {
+  font-family: "Courgette", cursive;
+  font-family: "PT Serif", serif;
+  font-size: 12pt;
+}
 
-  p1, p2, p3, p4{
-    font-family: 'Courgette', cursive;
-    font-family: 'PT Serif', serif;
-    font-size: 12pt;
-   
-    
-  }
+.getTickets,
+a {
+  text-decoration: underline;
+}
 
-  .getTickets, a {
-    text-decoration: underline;
-    
-  }
+.getTickets:hover {
+  color: #33c4ff;
+  cursor: pointer;
+}
 
-  .getTickets:hover {
-    color: #33C4FF;
-    cursor: pointer;
-  }
+.plan,
+a {
+  text-decoration: underline;
+}
 
-  .plan,a {
-    text-decoration: underline;
-  }
+.plan:hover {
+  color: #e72af5;
+  cursor: pointer;
+}
 
-  .plan:hover {
-    color: #E72AF5;
-    cursor: pointer;
-  }
+.themPark:hover {
+  color: #18c725;
+}
 
-  .themPark:hover {
-    color: #18C725;
-  }
+.learnMore,
+a {
+  text-decoration: underline;
+}
 
-  .learnMore,a {
-    text-decoration: underline;
-  }
-
-  .learnMore:hover {
-    color: #3C41FA;
-    cursor: pointer;
-  }
-
-  
+.learnMore:hover {
+  color: #3c41fa;
+  cursor: pointer;
+}
 
 /*images of third section along with texts*/
 h3 {
-    text-align: center;
-    margin-top: 80px;
-    font-size: 2em;
-    font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 2em;
+  font-family: "Abril Fatface", cursive;
 }
 
 .main2 {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -80px;
-  }
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -80px;
+}
 
-  .row2 {
-    margin: 2px -12px;
-  }
+.row2 {
+  margin: 2px -12px;
+}
 
-  .row2,
-  .row2> .column2 {
-    padding: 12px;
-  }
-
+.row2,
+.row2 > .column2 {
+  padding: 12px;
+}
 
 .column2 {
-    float: left;
-    width: 25%;
-    text-align: left;
+  float: left;
+  width: 25%;
+  text-align: left;
+}
 
+.content2 {
+  background-color: white;
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p5,
+p6,
+p7,
+p8 {
+  font-family: "Courgette", cursive;
+  font-family: "PT Serif", serif;
+  font-size: 12pt;
+}
+
+.date {
+  color: grey;
+  text-decoration: none;
+}
+
+.date:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+@media screen and (max-width: 900px) {
+  .column2 {
+    width: 50%;
   }
-
-  .content2 {
-    background-color: white;
-  }
-
-  .row2:after {
-    content: "";
-    display:table;
-    clear:both;
-  }
-  
-
-  p5, p6, p7, p8 {
-   font-family: 'Courgette', cursive;
-    font-family: 'PT Serif', serif;
-    font-size: 12pt;
-
-  }
-
-  .date {
-    color: grey;
-    text-decoration: none;
-  }
-
-  .date:hover {
-    text-decoration: underline;
-    color: grey;
-  }
-
-  @media screen and (max-width: 900px) {
-    .column2 {
-        width: 50%;
-    }
 }
 
 @media screen and (max-width: 500px) {
-    .column2 {
-        width: 100%;
-    }
+  .column2 {
+    width: 100%;
+  }
 }
 
 /*third section*/
 h5 {
-    text-align: center;
-    font-size: 2em;
-    font-family: 'Abril Fatface', cursive;
-    text-decoration: underline;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Abril Fatface", cursive;
+  text-decoration: underline;
 }
 
 .blueBackground {
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #297CB3;
-    margin-top: 40px;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #297cb3;
+  margin-top: 40px;
 }
 
-
 .hogwarts {
-    margin-left: 140px;
-
-   
+  margin-left: 140px;
 }
 
 .presents {
-    margin-left: 140px;
+  margin-left: 140px;
 }
 
 .streamHarry:hover {
-    color: white;
+  color: white;
 }
-
 
 /*second picture in third section*/
 .row3 {
-    display: flex;
+  display: flex;
 }
 
 .column3 {
-    flex: 20%;
-    padding: 5px;
-    margin-bottom: 5px;
+  flex: 20%;
+  padding: 5px;
+  margin-bottom: 5px;
 }
 
-
 .dinoPara {
-    margin-left: 140px;
-    margin-top: 60px;
-
+  margin-left: 140px;
+  margin-top: 60px;
 }
 
 .bones {
-    margin-left: 160px;
+  margin-left: 160px;
 }
 
 .more:hover {
-    color:white;
+  color: white;
 }

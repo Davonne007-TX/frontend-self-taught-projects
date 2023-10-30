@@ -1,2 +1,3 @@
 # Djvd
-Some of the projects I've been working on. Having trouble making the sites responsive. 
+
+Some of the projects I have worked on while on my coding journey learning HTML, CSS, and Javascript
