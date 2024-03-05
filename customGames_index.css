@@ -1,277 +1,270 @@
 /*html*/
 body. html {
-    margin: 0;
-    height: 100%;
-  }
-  
-  * {
-    box-sixing: border-box;
-  }
-  
-  .clearfix {
-    overflow: auto;
-  }
-  
-  /*header*/
-  .freeShipping {
-    background-color: black;
-    color: white;
-    font-family: 'Abril Fatface', cursive;
-    font-family: 'Alfa Slab One', cursive;
-    font-family: 'Bangers', cursive;
-    font-family: 'Bree Serif', serif;
-    family: 'Concert One', cursive;
-    font-family: 'Cookie', cursive;
-    font-family: 'Courgette', cursive;
-    font-family: 'Crimson Pro', serif;
-    font-family: 'DM Serif Display', serif;
-    font-family: 'Koulen', cursive;
-    font-size: 14pt;
-    width: 100%;
-    clear: both;
-    margin: -1% 0 20px 0;
-    padding: 10px 0 0 0;
-    margin-left: -12px;
-    padding-left: 20px;
-  }
-  
-  .spendMore {
-    margin-left: 50px;
-  }
-  
-  .checkOrder {
-    float: right;
-    margin-right: 50px;
-  }
-  
-  li {
-    display: inline;
-    text-decoration: none;
-    padding: 20px;
-  }
-  
-  li:hover {
-    color: green;
-    cursor: pointer;
-  }
-  
-  /*header 2*/
-  .moneyForGames {
-    text-align: center;
-     font-family: 'Abril Fatface', cursive;
-     font-family: 'Alfa Slab One', cursive;
-     font-family: 'Bangers', cursive;
-     font-family: 'Bree Serif', serif;
-     family: 'Concert One', cursive;
-     font-family: 'Cookie', cursive;
-     font-family: 'Courgette', cursive;
-     font-family: 'Crimson Pro', serif;
-     font-family: 'DM Serif Display', serif;
-     font-family: 'Koulen', cursive;
-     background-color: green;
-     clear: both;
-     margin: -1% 0 20px 0;
-     padding: 10px 0 0 0;
-     margin-left: -15px;
-     margin-right: -15px;
-     margin-top: -20px;
-     color: white;
-     font-size: 12pt;
-  }
-  
-  /*body*/
-  h1 {
-    font-family: impact;
-    font-size: 28pt;
-    margin-left: 4%;
-    margin-bottom: 20px;
-    display: inline;
-    color: green;
-  }
-  
-  .dropbtn {
-    background-color: #4CAF50;
-    color: black;
-    font-family: impact;
-    padding: 16px;
-    font-size: 22px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    margin-left: 5px;
-    width: 150px;
-   
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 400px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    font-family: 'Abril Fatface', cursive;
-    font-family: 'Alfa Slab One', cursive;
-    font-family: 'Bangers', cursive;
-    font-family: 'Bree Serif', serif;
-    family: 'Concert One', cursive;
-    font-family: 'Cookie', cursive;
-    font-family: 'Courgette', cursive;
-    font-family: 'Crimson Pro', serif;
-    font-family: 'DM Serif Display', serif;
-    font-family: 'Koulen', cursive;
-    font-size: 18pt;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #f1f1f1}
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-  }
-  
-  .search {
-    margin: 10px;
-    width: 44%;
-    font-family: impact;
-    border: 2px solid #EDE9F6;
-    background-color: #EDE9F6;
-    padding: 5px;
-    display: inline;
-    font-size: 14pt;
-    font-family: sans-serif;
-  }
+  margin: 0;
+  height: 100%;
+}
 
+* {
+  box-sixing: border-box;
+}
 
- .magnify {
-    font-size: 10pt;
-    padding: 8px;
-  } 
+.clearfix {
+  overflow: auto;
+}
+
+/*header*/
+.freeShipping {
+  background-color: black;
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  font-family: "Alfa Slab One", cursive;
+  font-family: "Bangers", cursive;
+  font-family: "Bree Serif", serif;
+  font-family: "Concert One", cursive;
+  font-family: "Cookie", cursive;
+  font-family: "Courgette", cursive;
+  font-family: "Crimson Pro", serif;
+  font-family: "DM Serif Display", serif;
+  font-family: "Koulen", cursive;
+  font-size: 14pt;
+  width: 100%;
+  clear: both;
+  margin: -1% 0 20px 0;
+  padding: 10px 0 0 0;
+  margin-left: -12px;
+  padding-left: 20px;
+}
+
+.spendMore {
+  margin-left: 50px;
+}
+
+.checkOrder {
+  float: right;
+  margin-right: 50px;
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+  padding: 20px;
+}
+
+li:hover {
+  color: green;
+  cursor: pointer;
+}
+
+/*header 2*/
+.moneyForGames {
+  text-align: center;
+  font-family: "Abril Fatface", cursive;
+  font-family: "Alfa Slab One", cursive;
+  font-family: "Bangers", cursive;
+  font-family: "Bree Serif", serif;
+  family: "Concert One", cursive;
+  font-family: "Cookie", cursive;
+  font-family: "Courgette", cursive;
+  font-family: "Crimson Pro", serif;
+  font-family: "DM Serif Display", serif;
+  font-family: "Koulen", cursive;
+  background-color: green;
+  clear: both;
+  margin: -1% 0 20px 0;
+  padding: 10px 0 0 0;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -20px;
+  color: white;
+  font-size: 12pt;
+}
+
+/*body*/
+h1 {
+  font-family: impact;
+  font-size: 28pt;
+  margin-left: 4%;
+  margin-bottom: 20px;
+  display: inline;
+  color: green;
+}
+
+.dropbtn {
+  background-color: #4caf50;
+  color: black;
+  font-family: impact;
+  padding: 16px;
+  font-size: 22px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  width: 150px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 400px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-family: "Abril Fatface", cursive;
+  font-family: "Alfa Slab One", cursive;
+  font-family: "Bangers", cursive;
+  font-family: "Bree Serif", serif;
+  family: "Concert One", cursive;
+  font-family: "Cookie", cursive;
+  font-family: "Courgette", cursive;
+  font-family: "Crimson Pro", serif;
+  font-family: "DM Serif Display", serif;
+  font-family: "Koulen", cursive;
+  font-size: 18pt;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.search {
+  margin: 10px;
+  width: 44%;
+  font-family: impact;
+  border: 2px solid #ede9f6;
+  background-color: #ede9f6;
+  padding: 5px;
+  display: inline;
+  font-size: 14pt;
+  font-family: sans-serif;
+}
+
+.magnify {
+  font-size: 10pt;
+  padding: 8px;
+}
 
 .magnify:hover {
-    color: EDE9F6;
-    cursor: pointer;
-    margin: 10px;
-  }
+  color: EDE9F6;
+  cursor: pointer;
+  margin: 10px;
+}
 
-  .ti, a {
-    font-size: 14pt;
-     color: green;
-     margin: 15px;
-  }
+.ti,
+a {
+  font-size: 14pt;
+  color: green;
+  margin: 15px;
+}
 
+ti,
+a:hover {
+  color: black;
+  cursor: pointer;
+}
 
-  ti,a:hover {
-    color: black;
-    cursor: pointer;
-  }
+.arrows,
+.stars,
+.icon {
+  max-width: 30px;
+  display: inline;
+}
 
-  .arrows, .stars, .icon {
-    max-width: 30px;
-    display: inline; 
-  }
+.icon {
+  padding: 2px;
+}
 
-   .icon {
-     padding: 2px;
-   }
-  
-  /*images*/
-  .images {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 0 4px;
-    margin: 25px;
-  }
-  
-    .images img {
-    width: 35%;
-    height: 350px;
-    object-fit: cover;
-    padding: 0 4px;
-    padding-bottom: 10px;
-    border-radius: 10px;
-    margin: 10px;
-  }
-  
-  .helicopter {
+/*images*/
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px;
+  margin: 25px;
+}
+
+.images img {
+  width: 35%;
+  height: 350px;
+  object-fit: cover;
+  padding: 0 4px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.helicopter {
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+  max-height: 289px;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.marioPic {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  max-height: 550px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/*text boxes*/
+.row {
+  margin-left: 280px;
+}
+
+.column {
+  float: left;
+  width: 35%;
+  padding: 40px;
+  height: 350px;
+}
+
+row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2 {
+  font-family: impact;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  font-size: 20pt;
+}
+
+p1 {
+  font-size: 16pt;
+  font-family: "Bree Serif", serif;
+}
+
+@media (max-width: 800px) {
+  .textBox {
     width: 100%;
-    height: auto;
-    max-width: 700px;
-    max-height: 289px;
-    padding: 10px;
-    margin: 15px;
-    border-radius: 10px;
   }
-  
-  .marioPic {
-    width: 100%;
-    height: auto;
-    max-width: 600px;
-    max-height: 550px;
-    border-radius: 5px;
-    padding: 10px;
-  }
-  
-  /*text boxes*/
-  .row {
-    margin-left: 280px;
-  }
-  
-  .column {
-    float: left;
-    width: 35%;
-    padding: 40px;
-    height: 350px;
-  }
-  
-  row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  
-  
-  h2 {
-    font-family: impact;
-    letter-spacing: 1px;
-    text-decoration: underline;
-    font-size: 20pt;
-  }
-  
-  p1 {
-    font-size: 16pt;
-    font-family: 'Bree Serif', serif;
-  }
-  
-  
-  @media (max-width: 800px) {
-    .textBox {
-      width: 100%;
-    }
-  }
-  
-  
-  
-  
-  
-  
-  
+}
